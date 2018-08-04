@@ -5,6 +5,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -40,6 +42,29 @@ public class ConsultaUsuario extends AppCompatActivity {
         ArrayAdapter<CharSequence> adaptador = new ArrayAdapter(this, android.R.layout.simple_spinner_item, listaPersonas);
 
         comboPersona.setAdapter(adaptador);
+
+        comboPersona.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+                if(position!=0){
+                    txtId.setText(personasList.get(position-1).getId().toString());
+                    txtNombre.setText(personasList.get(position-1).getNombre());
+                    txtTelefono.setText(personasList.get(position-1).getTelefono());
+                }else{
+                    txtId.setText("");
+                    txtNombre.setText("");
+                    txtTelefono.setText("");
+
+                }
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
     }
 
     private void consultaListaPersona() {
