@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 import com.example.infante.myapplication.utilidades.Utilidades;
 
-public class ConsultarUsuarios extends AppCompatActivity {
+public class GestionUsuarios extends AppCompatActivity {
 
     EditText edtId, edtNombre, edtTelefono;
 
@@ -24,7 +24,7 @@ public class ConsultarUsuarios extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_consultar_usuarios);
+        setContentView(R.layout.activity_gestion_usuarios);
 
         conn = new ConexionSQLiteHelper(getApplicationContext(), "bd_usuarios",null,1);
 
