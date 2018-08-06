@@ -20,6 +20,13 @@
             android:text="Nuevo Registro" />
 
         <Button
+            android:id="@+id/btn_registrar_mascota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Registrat Mascota" />
+
+        <Button
             android:id="@+id/btn_consultar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,6 +46,13 @@
             android:layout_height="wrap_content"
             android:onClick="onClick"
             android:text="consultar mediante lsitview" />
+
+        <Button
+            android:id="@+id/btn_consultar_mascotas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="Consultar Mascota" />
 
 </LinearLayout>
 

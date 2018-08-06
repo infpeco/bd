@@ -19,7 +19,11 @@
         <activity android:name=".NuevoRegistro" />
         <activity android:name=".GestionUsuarios" />
         <activity android:name=".ConsultaUsuario" />
-        <activity android:name=".ConsultaListView"></activity>
+        <activity android:name=".ConsultaListView" />
+        <activity android:name=".RegistrarMascota" />
+        <activity android:name=".DetalleUsuario" />
+        <activity android:name=".ConsultarMascota" />
+        <activity android:name=".DetalleMascota"></activity>
     </application>
 
 </manifest>

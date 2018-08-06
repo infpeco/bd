@@ -1,6 +1,8 @@
 package com.example.infante.myapplication.entidades;
 
-public class Usuario {
+import java.io.Serializable;
+
+public class Usuario implements Serializable {
 
     private Integer id;
     private String nombre;
