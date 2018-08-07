@@ -29,7 +29,7 @@ public class DetalleMascota extends AppCompatActivity {
         campoNombreMascota = findViewById(R.id.txt_nombre_mascota);
         campoRazaMascota = findViewById(R.id.txt_raza);
         campoIdPersona = findViewById(R.id.txt_id);
-        campoNombrePersona = findViewById(R.id.txt_id_mascota);
+        campoNombrePersona = findViewById(R.id.txt_nombre);
         campoTelefonoPersona = findViewById(R.id.txt_telefono);
 
         Bundle objetoEnviado = getIntent().getExtras();
