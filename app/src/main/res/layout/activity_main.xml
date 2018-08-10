@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClick"
-            android:text="Nuevo Registro" />
+            android:text="Registrar Persona" />
 
         <Button
             android:id="@+id/btn_registrar_mascota"
@@ -31,28 +31,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClick"
-            android:text="Consultar" />
+            android:text="Consultar Personas" />
 
         <Button
             android:id="@+id/btn_consultaSpinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClick"
-            android:text="Consultar mediante spinner" />
+            android:text="Consultar Personas mediante spinner" />
 
         <Button
             android:id="@+id/btn_consultaListView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClick"
-            android:text="consultar mediante lsitview" />
+            android:text="consultar personas mediante lsitview" />
 
         <Button
             android:id="@+id/btn_consultar_mascotas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClick"
-            android:text="Consultar Mascota" />
+            android:text="Consultar Mascotas" />
 
 </LinearLayout>
 
