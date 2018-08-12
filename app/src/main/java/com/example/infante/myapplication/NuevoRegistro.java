@@ -54,5 +54,10 @@ public class NuevoRegistro extends AppCompatActivity {
 
         db.close();
 
+        campoId.setText("");
+        campoNombre.setText("");
+        campoTelefono.setText("");
+        campoId.requestFocusFromTouch();
+
     }
 }

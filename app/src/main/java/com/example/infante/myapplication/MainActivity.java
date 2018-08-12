@@ -23,8 +23,20 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_nuevoRegistro:
                 miIntent = new Intent(MainActivity.this, NuevoRegistro.class);
                 break;
+            case R.id.btn_registrar_mascota:
+                miIntent = new Intent(MainActivity.this, RegistrarMascota.class);
+                break;
             case R.id.btn_consultar:
-                miIntent = new Intent(MainActivity.this, ConsultarUsuarios.class);
+                miIntent = new Intent(MainActivity.this, GestionUsuarios.class);
+                break;
+            case R.id.btn_consultaSpinner:
+                miIntent = new Intent(MainActivity.this, ConsultaUsuario.class);
+                break;
+            case R.id.btn_consultaListView:
+                miIntent = new Intent(MainActivity.this, ConsultaListView.class);
+                break;
+            case R.id.btn_consultar_mascotas:
+                miIntent = new Intent(MainActivity.this, ConsultarMascota.class);
                 break;
         }
         if (miIntent!=null){
