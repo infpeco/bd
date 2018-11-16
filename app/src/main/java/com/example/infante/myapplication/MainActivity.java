@@ -38,6 +38,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_consultar_mascotas:
                 miIntent = new Intent(MainActivity.this, ConsultarMascota.class);
                 break;
+            case R.id.btn_consultar_recycler:
+                miIntent = new Intent(MainActivity.this, ListaPersonasRecycler.class);
+                break;
         }
         if (miIntent!=null){
             startActivity(miIntent);

@@ -23,6 +23,7 @@
         <activity android:name=".RegistrarMascota" />
         <activity android:name=".DetalleUsuario" />
         <activity android:name=".ConsultarMascota" />
+        <activity android:name=".ListaPersonasRecycler"/>
         <activity android:name=".DetalleMascota"></activity>
     </application>
 
